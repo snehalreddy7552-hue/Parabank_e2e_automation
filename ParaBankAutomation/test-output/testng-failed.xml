@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParaBankSuite]">
+  <test thread-count="5" name="ParaBankTests(failed)">
+    <classes>
+      <class name="testcases.TransferFundsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyTransferFunds"/>
+        </methods>
+      </class> <!-- testcases.TransferFundsTest -->
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyRegistrationAndLogin"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+      <class name="testcases.BillPayTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyBillPayment"/>
+        </methods>
+      </class> <!-- testcases.BillPayTest -->
+    </classes>
+  </test> <!-- ParaBankTests(failed) -->
+</suite> <!-- Failed suite [ParaBankSuite] -->

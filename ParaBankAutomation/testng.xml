@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="ParaBankSuite">
+
+    <test name="ParaBankTests">
+
+        <classes>
+
+            <class name="testcases.RegisterTest"/>
+
+            <class name="testcases.TransferFundsTest"/>
+
+            <class name="testcases.BillPayTest"/>
+
+            <class name="testcases.DemoTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
